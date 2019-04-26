@@ -1,0 +1,41 @@
+#nouveaux {
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: #eee;
+    min-height: 100vh;
+}
+
+#nouveaux>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 210px;
+    height: 200px;
+    border-radius: 3px;
+    background: #3d1b2b;
+    margin: 5px;
+}
+
+#nouveaux>div>div {
+    position: absolute;
+    visibility: hidden;
+}
+
+#nouveaux img {
+    width: 100%;
+    height: 100%;
+    ;
+}
+
+#nouveaux>div:hover div {
+    visibility: visible;
+}
+
+#nouveaux div a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}

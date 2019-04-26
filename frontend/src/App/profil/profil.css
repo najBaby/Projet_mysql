@@ -1,0 +1,74 @@
+#profil {
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    min-height: 90vh;
+}
+
+#banniere {
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    background: #0d1b2b;
+}
+
+#banniere h1 {
+    text-align: center;
+    color: #ddf;
+    font-weight: 700;
+}
+
+#other {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#wrap {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-right: 10px;
+}
+
+#me {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    background: #3d1b2b;
+    height: 30vh;
+    position: relative;
+    top: -100px;
+}
+
+#me img {
+    border-radius: 3px;
+    width: 70px;
+    height: 70px;
+}
+
+#donnees nav,
+#donnees ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#donnees nav {
+    border-bottom: 1px solid #888;
+}
+
+#donnees li {
+    margin: 5px;
+}
+
+#donnees li a {
+    color: #444;
+}
+
+#donnees {
+    width: 58%;
+}

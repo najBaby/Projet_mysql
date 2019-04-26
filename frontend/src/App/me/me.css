@@ -1,0 +1,48 @@
+#moi {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    background: #7cd3f3;
+    background-image: url("http://localhost:4000/0ee7b1c65f6ea4928eab9523bacfaed1.png");
+    background-position: center;
+    position: relative;
+}
+
+#moi img {
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+#moi div {
+    padding: 5px;
+    border-radius: 2px;
+    min-width: 200px;
+    min-height: 100px;
+    bottom: -105px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#moi div ul {
+    background: #efefef;
+    width: 100%;
+    display: flex;
+    color: #444;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#moi:hover div {
+    visibility: visible;
+}
+
+#moi div ul li a {
+    color: #444;
+
+}
+
+#moi div ul li {
+    padding: 5px;
+    border-bottom: 1px solid #444;
+}

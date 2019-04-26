@@ -1,0 +1,40 @@
+#configuration form {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#configuration form div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#configuration form input {
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    /* border-bottom: 3px solid #3d1b2b; */
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    padding: 15px;
+    letter-spacing: 1px;
+    /* background: none; */
+    color: rgb(41, 35, 35);
+}
+
+#configuration button {
+    width: 130px;
+    height: 40px;
+    border-radius: 2px;
+    background: none;
+    color: #444;
+    letter-spacing: 2px;
+    font-weight: 400;
+    background: #7cd3f3;
+    outline: none;
+    border: none;
+    font-size: 12px;
+}

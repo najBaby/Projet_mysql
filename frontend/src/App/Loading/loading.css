@@ -1,0 +1,30 @@
+#loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(75vh - 100pt);
+    height: 60%;
+    background: #3d1b2b;
+    z-index: 1;
+}
+
+#loading div {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #3d1b2b;
+    border-radius: 50%;
+    border-top: 5px solid #0d0d0d;
+    border-left: 5px solid #0d0d0d;
+    border-bottom: 5px solid #0d0d0d;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}

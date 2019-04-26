@@ -1,0 +1,54 @@
+#navbar li a {
+    display: inline-block;
+    font-size: 14px;
+    word-spacing: -3px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #dde;
+}
+
+#navbar li {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul {
+    background: none;
+}
+
+#navbar,
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar {
+    background-color: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    z-index: 1;
+}
+
+#navbar ul {
+    width: 67%;
+    justify-content: space-around;
+}
+
+#navbar #connecter {
+    border: 1px solid #7cd3f3;
+    border-radius: 1.5px;
+    padding: 5px;
+    font-display: block;
+}
+
+#navbar #inscrire {
+    background-color: #7cd3f3;
+    color: #0d1b2b;
+    font-display: block;
+    border-radius: 2px;
+    padding: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+}

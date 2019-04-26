@@ -1,0 +1,13 @@
+#actualites {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#actualites div {
+    margin: 10px;
+    width: 550px;
+    min-height: 50px;
+    background: #0d1b2b;
+    border-radius: 5px;
+}
